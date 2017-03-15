@@ -89,6 +89,8 @@
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{bibliography item}[text]
 
+\addtobeamertemplate{block begin}{}{\setlength{\parindent}{20pt}\@afterindentfalse\@afterheading}
+
 % =============================================================================
 
 \makeatother
