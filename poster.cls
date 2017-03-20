@@ -63,15 +63,23 @@
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth]{footline}
   \begin{columns}[c]
-  \begin{column}{.45\paperwidth}
+  \begin{column}{.3\paperwidth}
   \begin{center}
-  \includegraphics[scale=0.8]{logos/logo_uob_color}
+  \includegraphics[scale=0.8]{templates/logos/logo_uob_color}
   \end{center}
+  \vspace{2cm}
   \end{column}
-  \begin{column}{.45\paperwidth}
+  \begin{column}{.3\paperwidth}
   \begin{center}
-  \includegraphics[scale=0.6,trim=3.0cm 8.0cm 3.0cm 8.0cm,clip=true]{logos/logo_cs_qr}
+  \includegraphics[scale=0.2]{templates/logos/qecdt.png}
   \end{center}
+  \vspace{2cm}
+  \end{column}
+  \begin{column}{.3\paperwidth}
+  \begin{center}
+  \includegraphics[scale=2]{templates/logos/qetlabs.png}
+  \end{center}
+  \vspace{2cm}
   \end{column}
   \end{columns}
   \end{beamercolorbox}
