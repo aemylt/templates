@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{poster}[2012/05/04 UoB CS LaTeX class, Dan Page <page@cs.bris.ac.uk>]
+\ProvidesClass{templates/poster}[2012/05/04 UoB CS LaTeX class, Dan Page <page@cs.bris.ac.uk>]
 
 \RequirePackage{pgfkeys}
 \RequirePackage{pgfopts}

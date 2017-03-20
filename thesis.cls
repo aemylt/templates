@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{thesis}[2012/05/04 UoB CS LaTeX class, Dan Page <page@cs.bris.ac.uk>]
+\ProvidesClass{templates/thesis}[2012/05/04 UoB CS LaTeX class, Dan Page <page@cs.bris.ac.uk>]
 
 \RequirePackage{pgfkeys}
 \RequirePackage{pgfopts}
@@ -115,7 +115,7 @@
 
   \vspace*{\fill}
   \begin{center}
-          \includegraphics[scale=0.3]{logos/logo_uob_color}          \\
+          \includegraphics[scale=0.3]{templates/logos/logo_uob_color}          \\
                        \vspace{1cm}
                 H. H. WILLS PHYSICS LABORATORY                       \\
 
