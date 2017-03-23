@@ -49,8 +49,8 @@
   \vspace{4ex}
   \raggedright
   {\Huge  \@postertitle}                                                                       \\ [4ex]
-  {\Large \@posterauthors} \\ [4ex]
-  {\Large \@posteraffils}
+  {\normalsize \@posterauthors} \\ [4ex]
+  {\normalsize \@posteraffils}
   \vspace{4ex}
   \end{center}
   \end{column}
