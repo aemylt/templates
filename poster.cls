@@ -21,6 +21,8 @@
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/hyperref
 \RequirePackage{hyperref}
 
+\RequirePackage{xpatch}
+
 \makeatletter
 
 % =============================================================================
@@ -104,6 +106,12 @@
 \setbeamertemplate{bibliography item}[text]
 
 \addtobeamertemplate{block begin}{}{\setlength{\parindent}{20pt}\@afterindentfalse\@afterheading}
+
+\xpatchcmd{\itemize}
+  {\def\makelabel}
+  {\setlength{\itemsep}{0.3em}\def\makelabel}
+  {}
+  {}
 
 % =============================================================================
 
