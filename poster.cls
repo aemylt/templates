@@ -65,25 +65,31 @@
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth]{footline}
   \begin{columns}[c]
-  \begin{column}{.18\paperwidth}
+  \begin{column}{.14\paperwidth}
   \begin{center}
-  \includegraphics[scale=0.7]{templates/logos/logo_uob_color}
+  \includegraphics[width=\linewidth]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.18\paperwidth}
+  \begin{column}{.14\paperwidth}
   \begin{center}
-  \includegraphics[scale=0.2]{templates/logos/qecdt.png}
+  \includegraphics[width=\linewidth]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.18\paperwidth}
+  \begin{column}{.14\paperwidth}
   \begin{center}
-  \includegraphics[scale=2]{templates/logos/qetlabs.png}
+  \includegraphics[width=\linewidth]{templates/logos/qci.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.18\paperwidth}
+  \begin{column}{.14\paperwidth}
+  \begin{center}
+  \includegraphics[width=\linewidth]{templates/logos/qecdt.png}
+  \end{center}
+  \vspace{2cm}
+  \end{column}
+  \begin{column}{.14\paperwidth}
   \begin{center}
   \includegraphics[width=\linewidth]{templates/logos/epsrc.jpg}
   \end{center}
