@@ -67,25 +67,25 @@
   \begin{columns}[c]
   \begin{column}{.25\paperwidth}
   \begin{center}
-  \includegraphics[height=2cm]{templates/logos/logo_uob_color}
+  \includegraphics[height=2.5cm]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
   \begin{column}{.25\paperwidth}
   \begin{center}
-  \includegraphics[height=2cm]{templates/logos/qecdt.png}
+  \includegraphics[height=2.5cm]{templates/logos/qecdt.png}
   \end{center}
   \vspace{2cm}
   \end{column}
   \begin{column}{.25\paperwidth}
   \begin{center}
-  \includegraphics[height=2cm]{templates/logos/qetlabs.png}
+  \includegraphics[height=2.5cm]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
   \begin{column}{.25\paperwidth}
   \begin{center}
-  \includegraphics[height=2cm]{templates/logos/epsrc.jpg}
+  \includegraphics[height=2.5cm]{templates/logos/epsrc.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
