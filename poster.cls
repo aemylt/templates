@@ -63,35 +63,35 @@
 % configure the poster footer
 \setbeamertemplate{footline}{
   \leavevmode
-  \begin{beamercolorbox}[wd=\paperwidth]{footline}
-  \begin{columns}[c]
-  \begin{column}{.14\paperwidth}
+  \begin{beamercolorbox}[wd=\paperwidth,center]{footline}
+  \begin{columns}[t]
+  \begin{column}{.15\paperwidth}
   \begin{center}
-  \includegraphics[width=\linewidth]{templates/logos/logo_uob_color}
+  \includegraphics[height=2.5cm]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.14\paperwidth}
+  \begin{column}{.15\paperwidth}
   \begin{center}
-  \includegraphics[width=\linewidth]{templates/logos/qetlabs.png}
+  \includegraphics[height=2.5cm]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.14\paperwidth}
+  \begin{column}{.15\paperwidth}
   \begin{center}
-  \includegraphics[width=\linewidth]{templates/logos/qci.jpg}
+  \includegraphics[height=2.5cm]{templates/logos/qci.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.14\paperwidth}
+  \begin{column}{.15\paperwidth}
   \begin{center}
-  \includegraphics[width=\linewidth]{templates/logos/qecdt.png}
+  \includegraphics[height=2.5cm]{templates/logos/qecdt.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.14\paperwidth}
+  \begin{column}{.15\paperwidth}
   \begin{center}
-  \includegraphics[width=\linewidth]{templates/logos/epsrc.jpg}
+  \includegraphics[height=2.5cm]{templates/logos/epsrc.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
