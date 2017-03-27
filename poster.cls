@@ -65,33 +65,39 @@
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth,center]{footline}
   \begin{columns}[t]
-  \begin{column}{.15\paperwidth}
+  \begin{column}{.12\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.15\paperwidth}
+  \begin{column}{.12\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.15\paperwidth}
+  \begin{column}{.12\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qci.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.15\paperwidth}
+  \begin{column}{.12\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qecdt.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.15\paperwidth}
+  \begin{column}{.12\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/epsrc.jpg}
+  \end{center}
+  \vspace{2cm}
+  \end{column}
+  \begin{column}{.12\paperwidth}
+  \begin{center}
+  \includegraphics[height=2.5cm]{templates/logos/himr.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
