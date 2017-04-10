@@ -15,7 +15,7 @@
 \RequirePackage{amssymb}
 
 % see http://tug.ctan.org/tex-archive/macros/latex/contrib/beamerposter/
-\RequirePackage[orientation=portrait,size=a1,scale=1.5]{beamerposter}
+\RequirePackage[orientation=portrait,size=a0,scale=1.5]{beamerposter}
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/url
 \RequirePackage{url}
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/hyperref
