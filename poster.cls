@@ -30,6 +30,7 @@
 \newcommand{\postertitle}[1]{\def \@postertitle {#1}}
 \newcommand{\posterauthors}[1]{\def \@posterauthors {#1}}
 \newcommand{\posteraffils}[1]{\def \@posteraffils {#1}}
+\newcommand{\posteremail}[1]{\def \@posteremail {#1}}
 \newcommand{\posterref}[1]{\def \@posterref {#1}}
 
 % define the official UoB red color as an RGB triple
@@ -53,7 +54,8 @@
   \raggedright
   {\Huge  \@postertitle}                                                                       \\ [4ex]
   {\normalsize \@posterauthors} \\ [4ex]
-  {\normalsize \@posteraffils} \\ [4ex]
+  {\normalsize \@posteraffils} \\
+  {\normalsize\tt \@posteremail} \\
   {\normalsize \@posterref}
   \vspace{4ex}
   \end{center}
