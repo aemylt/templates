@@ -52,12 +52,12 @@
   \begin{center}
   \vspace{4ex}
   \raggedright
-  {\Huge  \@postertitle}                                                                       \\ [4ex]
-  {\normalsize \@posterauthors} \\ [4ex]
-  {\normalsize \@posteraffils} \\
-  {\normalsize\tt \@posteremail} \\
+  {\Huge  \@postertitle}                                                                       \\ [2ex]
+  {\normalsize \@posterauthors} \\ [2ex]
+  {\normalsize \@posteraffils} \\ [2ex]
+  {\normalsize\tt \@posteremail} \\ [2ex]
   {\normalsize \@posterref}
-  \vspace{4ex}
+  \vspace{2ex}
   \end{center}
   \end{column}
   \end{columns}
