@@ -23,6 +23,8 @@
 
 \RequirePackage{xpatch}
 
+\RequirePackage{etoolbox}
+
 \makeatletter
 
 % =============================================================================
@@ -30,6 +32,7 @@
 \newcommand{\postertitle}[1]{\def \@postertitle {#1}}
 \newcommand{\posterauthors}[1]{\def \@posterauthors {#1}}
 \newcommand{\posteraffils}[1]{\def \@posteraffils {#1}}
+\newcommand{\posteremail}[1]{\def \@posteremail {#1}}
 \newcommand{\posterref}[1]{\def \@posterref {#1}}
 
 % define the official UoB red color as an RGB triple
@@ -51,11 +54,12 @@
   \begin{center}
   \vspace{4ex}
   \raggedright
-  {\Huge  \@postertitle}                                                                       \\ [4ex]
-  {\normalsize \@posterauthors} \\ [4ex]
-  {\normalsize \@posteraffils} \\ [4ex]
-  {\normalsize \@posterref}
-  \vspace{4ex}
+  {\Huge  \@postertitle}                                                                       \\ [2ex]
+  {\normalsize \@posterauthors} \\ [2ex]
+  {\normalsize \@posteraffils} \\ [2ex]
+  {\normalsize\tt \@posteremail}
+  \ifdef{\@posterref}{ \\ [2ex]{\normalsize \@posterref}}{}
+  \vspace{2ex}
   \end{center}
   \end{column}
   \end{columns}
@@ -67,27 +71,33 @@
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth]{footline}
   \begin{columns}[c]
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qecdt.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/epsrc.jpg}
+  \end{center}
+  \vspace{2cm}
+  \end{column}
+  \begin{column}{.2\paperwidth}
+  \begin{center}
+  \includegraphics[height=2.5cm]{templates/logos/himr.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
