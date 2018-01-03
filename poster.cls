@@ -23,6 +23,8 @@
 
 \RequirePackage{xpatch}
 
+\RequirePackage{etoolbox}
+
 \makeatletter
 
 % =============================================================================
@@ -55,8 +57,8 @@
   {\Huge  \@postertitle}                                                                       \\ [2ex]
   {\normalsize \@posterauthors} \\ [2ex]
   {\normalsize \@posteraffils} \\ [2ex]
-  {\normalsize\tt \@posteremail} \\ [2ex]
-  {\normalsize \@posterref}
+  {\normalsize\tt \@posteremail}
+  \ifdef{\@posterref}{ \\ [2ex]{\normalsize \@posterref}}{}
   \vspace{2ex}
   \end{center}
   \end{column}
@@ -69,27 +71,33 @@
   \leavevmode
   \begin{beamercolorbox}[wd=\paperwidth]{footline}
   \begin{columns}[c]
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/logo_uob_color}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qecdt.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/qetlabs.png}
   \end{center}
   \vspace{2cm}
   \end{column}
-  \begin{column}{.25\paperwidth}
+  \begin{column}{.2\paperwidth}
   \begin{center}
   \includegraphics[height=2.5cm]{templates/logos/epsrc.jpg}
+  \end{center}
+  \vspace{2cm}
+  \end{column}
+  \begin{column}{.2\paperwidth}
+  \begin{center}
+  \includegraphics[height=2.5cm]{templates/logos/himr.jpg}
   \end{center}
   \vspace{2cm}
   \end{column}
