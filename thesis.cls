@@ -57,6 +57,7 @@
 \usetikzlibrary{automata}
 \RequirePackage[caption=false]{subfig}
 \RequirePackage{tabularx}
+\RequirePackage{braket}
 
 % see http://www.ctan.org/tex-archive/usergrps/dante/dtk
 %\RequirePackage{dtklogos}
@@ -76,7 +77,7 @@
 \setcounter{tocdepth}{1}
 
 % configure style of bibliography
-\bibliographystyle{alpha}
+\bibliographystyle{unsrt}
 
 % configure style of pages
 \geometry{a4paper}
@@ -203,6 +204,13 @@
 \DeclareMathOperator{\poly}{poly}
 \DeclareMathOperator{\polylog}{polylog}
 \newcommand{\FIXME}[1]{{\color{red}FIXME: #1}}
+
+\DeclareMathOperator{\per}{per}
+
+\DeclareGraphicsExtensions{.pdf}
+
+\def\Id{1\!\mathrm{l}}
+\newcommand{\mr}[1]{\mathrm{#1}}
 
 % =============================================================================
 
