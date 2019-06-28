@@ -201,11 +201,19 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
 
+\DeclareMathOperator{\per}{per}
+
 \DeclareMathOperator{\poly}{poly}
 \DeclareMathOperator{\polylog}{polylog}
 \newcommand{\FIXME}[1]{{\color{red}FIXME: #1}}
-
-\DeclareMathOperator{\per}{per}
+\DeclareMathOperator{\symm}{\textrm{S}}
+\DeclareMathOperator{\unitary}{\textrm{U}}
+\DeclareMathOperator{\tdist}{\delta_\textrm{tr}}
+\DeclareMathOperator{\trace}{\textrm{Tr}}
+\DeclareMathOperator{\var}{\textrm{Var}}
+\DeclareMathOperator{\cov}{\textrm{Cov}}
+\DeclareMathOperator{\prob}{\textrm{Pr}}
+\DeclareMathOperator{\mean}{\mathbb{E}}
 
 \DeclareGraphicsExtensions{.pdf}
 
