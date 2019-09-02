@@ -116,7 +116,7 @@
 
   \vspace*{\fill}
   \begin{center}
-          \includegraphics[scale=0.3]{templates/logos/logo_uob_color}          \\
+          \includegraphics{templates/logos/bristolcrest_colour}          \\
                        \vspace{1cm}
                 H. H. WILLS PHYSICS LABORATORY                       \\
 
@@ -124,15 +124,14 @@
                  {\LARGE \thesis@title}                        \\
   \ifcsempty{thesis@subtitle}{}{{\Large \thesis@subtitle \\}}
                        \vspace{1cm}
-                 {\Large \thesis@author}                       \\
-                 {\Large Supervised by \thesis@supervisor}
+                 {\Large \thesis@author}                       
 
                        \vspace{1cm}
                 \rule{0.5\textwidth}{0.5pt}
                        \vspace{1cm}
 
-        A thesis submitted to the University of Bristol
-        in accordance with the requirements of the degree of
+        A dissertation submitted to the University of Bristol
+        in accordance with the requirements for award of the degree of
   \mbox{\ifcsstring{thesis@degree}{BSc} {Bachelor of Science}{}%
         \ifcsstring{thesis@degree}{MEng}{Master   of Engineering}{}%
         \ifcsstring{thesis@degree}{MSci}{Master   of Science}{}%
@@ -144,7 +143,7 @@
                 \rule{0.5\textwidth}{0.5pt}
                        \vspace{1cm} 
 
-                         \today
+                         February 2020
 
   \end{center}
   \vspace*{\fill}
@@ -158,15 +157,11 @@
 
   \chapter*{Declaration}
 
-  This thesis is submitted to the University of Bristol in accordance 
-  with the requirements of the degree of {\thesis@degree} in the Faculty 
-  of Science.  It has not been submitted for any other degree or diploma 
-  of any examining body.  Except where specifically acknowledged, it is all 
-  the work of the Author. 
+  I declare that the work in this dissertation was carried out in accordance with the requirements of the University's Regulations and Code of Practice for Research Degree Programmes and that it has not been submitted for any other academic award. Except where indicated by specific reference in the text, the work is the candidate's own work. Work done in collaboration with, or with the assistance of, others, is indicated as such. Any views expressed in the dissertation are those of the author.
 
   \vspace{6cm}
 
-  \noindent {\thesis@author}, \today
+SIGNED: ............................................................. DATE:..........................
 }
 
 % define macros to mark front, main and back matter
