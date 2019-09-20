@@ -68,6 +68,8 @@
 
 % configure algorithms
 \DontPrintSemicolon
+\SetKwFunction{FnBTSAT}{BacktrackSAT}
+\SetKwProg{Fn}{Function}{ is}{end}
 
 % configure listings
 \lstset{basicstyle=\ttfamily,captionpos=b}
@@ -193,10 +195,17 @@ SIGNED: ............................................................. DATE:.....
 
 % =============================================================================
 
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{problem}{Problem}
+\newtheorem{definition}{Definition}[chapter]
 
 \DeclareMathOperator{\per}{per}
+
+\DeclareMathOperator{\p}{\textrm{P}}
+\DeclareMathOperator{\np}{\textrm{NP}}
+\DeclareMathOperator{\true}{\textrm{True}}
+\DeclareMathOperator{\false}{\textrm{False}}
 
 \DeclareMathOperator{\poly}{poly}
 \DeclareMathOperator{\polylog}{polylog}
