@@ -69,6 +69,10 @@
 % configure algorithms
 \DontPrintSemicolon
 \SetKwFunction{FnBTSAT}{BacktrackSAT}
+\SetKwFunction{FnTSPthree}{TSP3}
+\SetKwFunction{FnPredicate}{P}
+\SetKwFunction{FnHeuristic}{h}
+\SetKwFunction{FnReduction}{Reduce}
 \SetKwProg{Fn}{Function}{ is}{end}
 
 % configure listings
