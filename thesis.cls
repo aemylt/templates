@@ -41,7 +41,7 @@
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/datetime/
 \RequirePackage{datetime}
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/algorithm2e
-\RequirePackage[algochapter]{algorithm2e}
+\RequirePackage[algochapter,linesnumbered]{algorithm2e}
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/listings
 \RequirePackage{listings}
 % see http://www.ctan.org/tex-archive/macros/latex/contrib/url
@@ -70,9 +70,12 @@
 \DontPrintSemicolon
 \SetKwFunction{FnBTSAT}{BacktrackSAT}
 \SetKwFunction{FnTSPthree}{TSP3}
-\SetKwFunction{FnPredicate}{P}
-\SetKwFunction{FnHeuristic}{h}
-\SetKwFunction{FnReduction}{Reduce}
+\SetKwFunction{FnPredicatethree}{P3}
+\SetKwFunction{FnHeuristicthree}{h3}
+\SetKwFunction{FnReductionthree}{Reduce3}
+\SetKwFunction{FnPredicatefour}{P4}
+\SetKwFunction{FnHeuristicfour}{h4}
+\SetKwFunction{FnReductionfour}{Reduce4}
 \SetKwProg{Fn}{Function}{ is}{end}
 
 % configure listings
@@ -80,7 +83,7 @@
 \renewcommand{\lstlistlistingname}{List of Listings}
 
 % configure style of table of contents
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 
 % configure style of bibliography
 \bibliographystyle{unsrt}
