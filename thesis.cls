@@ -204,7 +204,7 @@ SIGNED: ............................................................. DATE:.....
 
 \newtheorem{theorem}{Theorem}[chapter]
 \newtheorem{lemma}{Lemma}[chapter]
-\newtheorem{problem}{Problem}
+\newtheorem{problem}{Problem}[chapter]
 \newtheorem{definition}{Definition}[chapter]
 
 \DeclareMathOperator{\per}{per}
@@ -237,5 +237,18 @@ SIGNED: ............................................................. DATE:.....
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 
 % =============================================================================
+
+\def\cleardoublepage{\clearpage\if@twoside%
+\ifodd\c@page\else
+\vspace*{\fill}
+\hfill
+\begin{center}
+This page intentionally left blank.
+\end{center}
+\vspace{\fill}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi
+}
 
 \makeatother
