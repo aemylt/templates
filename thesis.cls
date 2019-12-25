@@ -58,6 +58,7 @@
 \RequirePackage[caption=false]{subfig}
 \RequirePackage{tabularx}
 \RequirePackage{braket}
+\RequirePackage[vcentermath]{youngtab}
 
 % see http://www.ctan.org/tex-archive/usergrps/dante/dtk
 %\RequirePackage{dtklogos}
