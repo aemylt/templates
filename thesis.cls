@@ -212,6 +212,8 @@ SIGNED: ............................................................. DATE:.....
 
 \DeclareMathOperator{\p}{\textrm{P}}
 \DeclareMathOperator{\np}{\textrm{NP}}
+\DeclareMathOperator{\bpp}{\textrm{BPP}}
+\DeclareMathOperator{\sharpp}{\#\textrm{P}}
 \DeclareMathOperator{\true}{\textrm{True}}
 \DeclareMathOperator{\false}{\textrm{False}}
 
