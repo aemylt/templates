@@ -59,6 +59,8 @@
 \RequirePackage{tabularx}
 \RequirePackage{braket}
 \RequirePackage[vcentermath]{youngtab}
+\RequirePackage[all]{nowidow}
+\RequirePackage{doi}
 
 % see http://www.ctan.org/tex-archive/usergrps/dante/dtk
 %\RequirePackage{dtklogos}
@@ -87,7 +89,7 @@
 \setcounter{tocdepth}{2}
 
 % configure style of bibliography
-\bibliographystyle{unsrt}
+\bibliographystyle{unsrturl}
 
 % configure style of pages
 \geometry{a4paper}
