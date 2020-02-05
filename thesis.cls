@@ -86,7 +86,7 @@
 \renewcommand{\lstlistlistingname}{List of Listings}
 
 % configure style of table of contents
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 
 % configure style of bibliography
 \bibliographystyle{unsrturl}
