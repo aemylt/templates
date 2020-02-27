@@ -243,17 +243,4 @@ SIGNED: ............................................................. DATE:.....
 
 % =============================================================================
 
-\def\cleardoublepage{\clearpage\if@twoside%
-\ifodd\c@page\else
-\vspace*{\fill}
-\hfill
-\begin{center}
-This page intentionally left blank.
-\end{center}
-\vspace{\fill}
-\thispagestyle{empty}
-\newpage
-\if@twocolumn\hbox{}\newpage\fi\fi\fi
-}
-
 \makeatother
