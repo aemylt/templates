@@ -12,6 +12,7 @@
        title/.store in=\thesis@title,      % string
     subtitle/.store in=\thesis@subtitle,   % string
         year/.store in=\thesis@year,       % string
+        length/.store in=\thesis@length,       % string
   % defaults
       author = {},
   supervisor = {},
@@ -19,6 +20,7 @@
        title = {},
     subtitle = {},
         year = {\the\year}
+        length = {}
 }
 
 \ProcessPgfOptions{/thesis}
@@ -125,17 +127,16 @@
 \renewcommand{\maketitle}{
   \newpage
   \thispagestyle{empty}
+  \pagenumbering{gobble}
 
   \vspace*{\fill}
   \begin{center}
-          \includegraphics{templates/logos/bristolcrest_colour}          \\
-                       \vspace{1cm}
-                H. H. WILLS PHYSICS LABORATORY                       \\
-
-                       \vspace{3cm}
                  {\LARGE \thesis@title}                        \\
   \ifcsempty{thesis@subtitle}{}{{\Large \thesis@subtitle \\}}
-                       \vspace{1cm}
+
+                       \vspace{2cm}
+          \includegraphics{templates/logos/bristolcrest_colour}          \\
+                       \vspace{2cm}
                  {\Large \thesis@author}                       
 
                        \vspace{1cm}
@@ -153,12 +154,19 @@
 
                        \vspace{1cm}
                 \rule{0.5\textwidth}{0.5pt}
-                       \vspace{1cm} 
+                       \vspace{1cm}
+                       
+                School of Physics                       \\
+                University of Bristol\\
+                       \vspace{1cm}
 
-                         February 2020
+                         \thesis@year
 
   \end{center}
   \vspace*{\fill}
+  \begin{flushright}
+  \thesis@length\ words
+  \end{flushright}
 }
 
 % define macro to generate UoB declaration
