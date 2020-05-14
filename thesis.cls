@@ -229,8 +229,6 @@
 
 \DeclareMathOperator{\poly}{poly}
 \DeclareMathOperator{\polylog}{polylog}
-\newcommand{\FIXME}[1]{{\color{red}FIXME: #1}}
-\newcommand{\change}[1]{{\color{red}#1}}
 \DeclareMathOperator{\symm}{\textrm{S}}
 \DeclareMathOperator{\unitary}{\textrm{U}}
 \DeclareMathOperator{\tdist}{\delta_\textrm{tr}}
